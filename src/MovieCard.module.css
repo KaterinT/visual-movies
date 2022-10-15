@@ -1,12 +1,19 @@
 .movieCard {
     list-style: none;
     font-size:1.5rem;
-    text-align: center;                                                                                                                                                                                                                                                                   
+    text-align: center;
+    font-family:fantasy;
+    cursor: pointer;
 }
 
 .movieImage {
     border-radius:10px;
     background-color:azure;
+    transition: 0.7s ease;
+}
+.movieImage:hover{
+    transform : scale(1.06);
+    box-shadow:0 0 8px rgb(39, 34, 34), 0 0 10px rgb(28, 26, 26), 0 0 20px #e60073, 0 0 30px #e60073, 0 0 30px;
 }
 
 @media (max-width:560px) {
